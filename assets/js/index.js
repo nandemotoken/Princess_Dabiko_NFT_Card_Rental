@@ -41,7 +41,7 @@ async function loadmm_gasfree(){
         return;
     }
     
-    ans = window.confirm("OKを押すと『NFTチケット』がMetaMaskに送信されます")
+    ans = window.confirm("OKを押すと『NFTスタンプ』がMetaMaskに送信されます")
     if ( !ans ){
         return;
     }
@@ -52,7 +52,7 @@ async function loadmm_gasfree(){
     const signer = provider.getSigner();
     const add = await signer.getAddress();
 
-    ans2 = await signer.signMessage( "NFTチケットを受け取ります" );
+    ans2 = await signer.signMessage( "NFTスタンプを受け取ります" );
     if ( ans2[1] != "x" ){
         return;
     }
@@ -73,6 +73,6 @@ function explorer(){
 
 function opensea(){
     //window.alert("opensea")
-    ans = window.confirm("OpenSeaでNFTレプリカを確認する\n\n"+ opensealist[network] + "\n\nOpenSeaを開き、MetaMaskを接続しますか？\n(反映には数分時間がかかります。NFTの画像は処理が終わると表示されます)");
+    ans = window.confirm("OpenSeaでNFTスタンプを確認する\n\n"+ opensealist[network] + "\n\nOpenSeaを開き、MetaMaskを接続しますか？\n(反映には数分時間がかかります。NFTの画像は処理が終わると表示されます)");
         if(ans){ window.open( opensealist[network] ); }
 }
