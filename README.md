@@ -1,4 +1,4 @@
-# Princess_Dabiko_NFT_Card_Rental
+# Princess_Dabiko_NFT_Stamp
 CryptoArtFesのダビコさんとのコラボレーション作品です  
 レプリカNFTを一定期間『借りる』ことができます。
 
