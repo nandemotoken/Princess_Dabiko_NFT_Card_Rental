@@ -2,13 +2,13 @@
 //--------------general settings--------------
 
 //matic testnet
-const ContractAddress = "0xB843CFBd600D56D61769D3a84c9C2e47868D29b0";
+//const ContractAddress = "0xB843CFBd600D56D61769D3a84c9C2e47868D29b0";
 
 //mainnet
-//const ContractAddress = "";
+const ContractAddress = "0xCBe91053a4D916017957835c25882dC5EF06d9Be";
 
 //matic matic testnet(0) or matic network(1)
-const network = 0;
+const network = 1;
 
 //---------------------------------------------
 
